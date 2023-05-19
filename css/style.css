@@ -433,7 +433,7 @@ footer .credit a {
   }
 
   .hero {
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     background-image: url("../img/alfin.png");
