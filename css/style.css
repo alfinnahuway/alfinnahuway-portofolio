@@ -437,6 +437,6 @@ footer .credit a {
 /* Mobile */
 @media (max-width: 450px) {
   html {
-    font-size: 40%;
+    font-size: 50%;
   }
 }
