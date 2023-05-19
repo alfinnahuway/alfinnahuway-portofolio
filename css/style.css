@@ -433,11 +433,11 @@ footer .credit a {
   }
 
   .hero {
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     align-items: center;
     background-image: url("../img/alfin.png");
-    background-size: auto;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
