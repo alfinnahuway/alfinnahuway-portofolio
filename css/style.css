@@ -386,6 +386,16 @@ footer .credit a {
     transform: scale(0.2);
   }
 
+  .hero {
+    display: flex;
+    align-items: center;
+    background-image: url("../img/alfin.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
   .hero .content p {
     mix-blend-mode: difference;
   }
