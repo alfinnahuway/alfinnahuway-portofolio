@@ -431,16 +431,4 @@ footer .credit a {
   html {
     font-size: 55%;
   }
-
-  .hero {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    background-image: url("../img/alfin.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    animation: fadeIn 5s;
-  }
 }
