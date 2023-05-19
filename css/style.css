@@ -92,18 +92,6 @@ body {
 
 /* Hero Section */
 
-.hero {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  background-image: url("../img/alfin.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  animation: fadeIn 5s;
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -386,6 +374,18 @@ footer .credit a {
     transform: scale(0.2);
   }
 
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../img/alfin.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    animation: fadeIn 5s;
+  }
+
   .hero .content p {
     mix-blend-mode: difference;
   }
@@ -430,5 +430,17 @@ footer .credit a {
 @media (max-width: 450px) {
   html {
     font-size: 55%;
+  }
+
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../img/alfin.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    animation: fadeIn 5s;
   }
 }
