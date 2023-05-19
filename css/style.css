@@ -387,6 +387,7 @@ footer .credit a {
   }
 
   .hero {
+    margin-top: -10px;
     display: flex;
     align-items: center;
     background-image: url("../img/alfin.png");
@@ -439,6 +440,6 @@ footer .credit a {
 /* Mobile */
 @media (max-width: 450px) {
   html {
-    font-size: 55%;
+    font-size: 40%;
   }
 }
